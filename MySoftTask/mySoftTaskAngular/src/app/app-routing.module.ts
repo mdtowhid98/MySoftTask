@@ -8,7 +8,6 @@ import { UpdatePatientComponent } from './patienComponent/update-patient/update-
 const routes: Routes = [
 
   { path: '', redirectTo: '/registration', pathMatch: 'full' }, // Default route to Show Patient
-
   {path:"registration",component:ViewPatientComponent},
   {path:"createregistration",component:CreatePatientComponent},
   {path:"updategistration/:id",component:UpdatePatientComponent},
